@@ -27,7 +27,10 @@ const init = async () => {
         }
         await init()
     } else {
-        fs.writeFileSync('index.html', generateHtml(team))
+        console.log(team)
+        fs.writeFileSync('index2.html', generateHtml(team), "utf-8", err=>{
+            console.log(err)
+        })
     }
 }
 

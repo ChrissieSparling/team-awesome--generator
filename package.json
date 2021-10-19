@@ -1,0 +1,27 @@
+{
+  "name": "team-awesome--generator",
+  "version": "1.0.0",
+  "description": "team profile generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nmp run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrissieSparling/team-awesome--generator.git"
+  },
+  "author": "chrissie sparling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrissieSparling/team-awesome--generator/issues"
+  },
+  "homepage": "https://github.com/ChrissieSparling/team-awesome--generator#readme"
+}
